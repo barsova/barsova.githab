@@ -1,0 +1,106 @@
+.containerimg {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-area: 1 1 1 1;
+}
+
+.photo {
+padding: 50px;
+}
+
+
+.p {
+color: blue;
+margin-left: 120px;
+}
+
+.logo {
+display: grid;
+grid-column: 60px ;
+grid-row: 60px;
+}
+
+.img1 {
+margin-bottom: 70px ;
+z-index: 10;
+}
+
+.p {
+ display: grid;
+ grid-column: 1000px;
+margin-bottom: 70px ;
+}
+.header {
+    position: sticky;
+    top: 0;
+}
+.moon {
+    margin-left: 135px;
+}
+@font-face {
+    font-family: fac;
+    src: url(RubikSprayPaint-Regular.ttf);
+}
+.p {
+    font-family: fac;
+    src: url(RubikSprayPaint-Regular.ttf);
+    display: grid;
+    grid-column: 1000px;
+    grid-row: 60px;
+}
+
+.img1 {
+     font-family: fac;
+    src: url(RubikSprayPaint-Regular.ttf);
+   float: right;
+   margin-bottom: 70px ;
+}
+
+.img3 {
+     font-family: fac;
+    src: url(RubikSprayPaint-Regular.ttf);
+    margin-bottom: 70px ;
+}
+
+.img2 {
+     font-family: fac;
+    src: url(RubikSprayPaint-Regular.ttf);
+    margin-bottom: 70px ;
+}
+
+.img4 {
+  font-family: fac;
+    src: url(RubikSprayPaint-Regular.ttf);
+    margin-bottom: 70px ;  
+}
+
+.img5 {
+  font-family: fac;
+    src: url(RubikSprayPaint-Regular.ttf);
+    margin-bottom: 70px ;  
+}
+.img6 {
+  font-family: fac;
+    src: url(RubikSprayPaint-Regular.ttf);
+    margin-bottom: 70px ;  
+}
+.foot {
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 1fr;
+    z-index: 100;
+}
+.pf {
+    font-family: fac;
+    src: url(RubikSprayPaint-Regular.ttf);
+    margin-bottom: 50px ;
+    margin-left: 70px
+}
+
+.space {
+     font-family: fac;
+    src: url(RubikSprayPaint-Regular.ttf);
+    margin-bottom: 10px ;
+    margin-left: 70px ;
+    margin-top: 70px;
+}
